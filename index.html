@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Admission Form</title>
+  </head>
+  <body>
+    <h1>School Admission Form</h1>
+    <form action="#">
+      <label for="studentName">Name of Student:</label>
+      <input type="text" name="studentName" id="studentName" required />
+      <br /><br />
+      <label for="fatherName">Father Name:</label>
+      <input type="text" name="fatherName" id="fatherName" required />
+      <br /><br />
+      <label for="date_of_birth">Date of Birth:</label>
+      <input type="date" name="date_of_birth" id="date_of_birth" required />
+      <p>Gender:</p>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <br /><br />
+
+      <label for="class">Choose a Class</label>
+      <select name="class" id="class">
+        <option value="" disabled selected>Select a class</option>
+        <option value="one">One</option>
+        <option value="two">Two</option>
+        <option value="three">Three</option>
+        <option value="four">Four</option>
+        <option value="five">Five</option>
+        <option value="six">Six</option>
+        <option value="seven">Seven</option>
+        <option value="eight">Eight</option>
+        <option value="nine">Nine</option>
+        <option value="ten">Ten</option>
+      </select>
+      <br /><br />
+
+      <input
+        type="checkbox"
+        name="terms_and_conditions"
+        id="T&C"
+        value="checked"
+      />
+      <label for="T&C">Agree to Terms and Conditions</label>
+      <br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
